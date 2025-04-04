@@ -1,9 +1,12 @@
 INHERITANCE BASED PROGRAMS REPOSITORY: 
+
+
 📌 Overview:
 This repository contains Java programs demonstrating Object-Oriented Programming (OOP) concepts, including inheritance, interfaces, polymorphism, and abstraction.
 Each program showcases an essential OOP principle through practical implementations.
 
 📂 Programs Included:
+
 🔹 Area of Circle
 Calculates the area of a circle using a coordinate-based approach.
 
@@ -31,6 +34,7 @@ Simulates a product sales system with tax and profit calculations.
 Demonstrates inheritance and method overriding for computational methods.
 
 🚀 How to Run the Programs:
+
 1️⃣ Clone this repository using:
 git clone https://github.com/CodesByPrafful/INHERITANCE-BASED-PROGRAMS.git
 
@@ -42,15 +46,22 @@ javac ProgramName.java
 java ProgramName
 
 🎯 Learning Outcomes:
+
 ✅ Understanding inheritance, polymorphism, abstraction, and interfaces.
+
 ✅ Implementing real-world OOP concepts in Java.
+
 ✅ Strengthening Java programming skills with structured examples.
 
-🤝 Contributing
+🤝 Contributing:
+
 To contribute to this repository, fork it, make your changes, and create a pull request.
+
 For any queries, email: praffulshikhar53@gmail.com
 
-📜 License
+
+📜 License:
+
 This repository is open-source and available under the MIT License.
 
 📌 Author: CodesByPrafful
