@@ -1,22 +1,35 @@
- /*
-    A class FactorialSum has been defined to calculate the sum of factorials of numbers from 1 to n.   Class Specifications:
+/*
+    A program is to be written in Java using **inheritance** to compute the sum of factorials from 1 to n.
 
-    Class Name: FactorialSum
+    Class Specifications:
+
+    Class Name: Num (Base Class)
 
     Data Members:
-    - n      : integer to store the number entered by the user
-    - sum    : integer to store the sum of factorials
+    - n   : integer to store the number
 
-    Methods/Member Functions:
-    1. FactorialSum()    : A default constructor to initialize n and sum with appropriate values.
-    2. void accept()     : Accepts an integer n from the user.
-    3. int factorial(int x) : A method to calculate and return the factorial of x.
-    4. void computeSum() : Calculates the sum of factorials from 1 to n and stores it in sum.
-    5. void display()    : Displays the number n along with the sum of factorials.
+    Methods:
+    1. Num(int nn)     : Constructor to initialize n.
+    2. int factorial(int a) : A method to compute and return the factorial of a number.
+    3. void display()  : Displays the number.
 
-    Define a class FactorialSum implementing the above specifications.
-    Also, write a main() function to create an object of FactorialSum, invoke appropriate methods, 
-    and display the result.
+    Class Name: S (Derived Class, extends Num)
+
+    Data Members:
+    - sum : integer to store the sum of factorials
+
+    Methods:
+    1. S(int n)        : Constructor to initialize n and sum.
+    2. void calsum()   : Calculates the sum of factorials from 1 to n and stores it in sum.
+    3. void display()  : Overrides the display() method of the base class to display the sum of factorials.
+
+    Task:
+    - Define the classes **Num** and **S** as per the above specifications.
+    - Write a `main()` function to:
+        - Accept an integer n from the user.
+        - Create an object of class S.
+        - Compute the sum of factorials using `calsum()`.
+        - Display the result using `display()`.
 
     Example:
 
